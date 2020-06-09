@@ -1,24 +1,17 @@
 {
   "name": "phone-book",
   "version": "1.0.0",
-  "description": "1. Build a RESTful Web Service that stores telephone numbers in a    MongoDB (a CRUD app) 2. Build a RESTful Web Service that stores to-do list items in a    MongoDB (a CRUD app) 3. Learn how to use Github to create a CIT 281 Code Portfolio that    will be available after the term ends",
+  "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon server-9.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "express": "^4.17.1"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/UO-CIT/project-5-milisim.git"
-  },
-  "bugs": {
-    "url": "https://github.com/UO-CIT/project-5-milisim/issues"
-  },
-  "homepage": "https://github.com/UO-CIT/project-5-milisim#readme"
+  }
 }
